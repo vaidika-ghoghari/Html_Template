@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Elegant Jewels</title>
+        
+
+<link href="D:/xampp/htdocs/Traning/Bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    
+
+     <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+      .b-example-divider {
+        width: 100%;
+        height: 3rem;
+        background-color: #0000001a;
+        border: solid rgba(0, 0, 0, 0.15);
+        border-width: 1px 0;
+        box-shadow:
+          inset 0 0.5em 1.5em #0000001a,
+          inset 0 0.125em 0.5em #00000026;
+      }
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+      .bi {
+        vertical-align: -0.125em;
+        fill: currentColor;
+      }
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+      .btn-bd-primary {
+        --bd-violet-bg: #712cf9;
+        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+        --bs-btn-font-weight: 600;
+        --bs-btn-color: var(--bs-white);
+        --bs-btn-bg: var(--bd-violet-bg);
+        --bs-btn-border-color: var(--bd-violet-bg);
+        --bs-btn-hover-color: var(--bs-white);
+        --bs-btn-hover-bg: #6528e0;
+        --bs-btn-hover-border-color: #6528e0;
+        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+        --bs-btn-active-color: var(--bs-btn-hover-color);
+        --bs-btn-active-bg: #5a23c8;
+        --bs-btn-active-border-color: #5a23c8;
+      }
+      .bd-mode-toggle {
+        z-index: 1500;
+      }
+      .bd-mode-toggle .bi {
+        width: 1em;
+        height: 1em;
+      }
+      .bd-mode-toggle .dropdown-menu .active .bi {
+        display: block !important;
+      }
+      .section-about{
+         background: linear-gradient(to right ,#f6f6f6);
+      padding: 80px 0;
+      color: #393939;
+       padding-left: 2px;
+      }
+
+      .btn-outline-secondary{
+      color: #fdfbfb;
+      box-shadow: #dfdfdf;
+     
+      border-color:  #fdfbfb ;
+      
+      }
+      .btn-outline-secondary:hover{
+        background-color:#fdfbfb;
+        color:#c83df3 ;
+        border:#c83df3 ;
+        
+      }
+.section {
+ 
+      background: linear-gradient(to right ,#c83df3,#fc6dd6, #c83df3);
+      padding: 100px 0;
+      color: #393939;
+      padding-left: 2px;
+    }
+    
+     .product-card {
+      border: 2px solid #c83df3;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      border-image-width: 2px;
+      padding: 2px;
+    }
+
+    .product-card:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s ease;
+    }
+
+       .footer {
+      background: linear-gradient(to right, #E6E6FA, #F0E68C, #DDA0DD);
+      color: #333;
+    }
+
+    .footer a {
+      color: #333;
+
+    }  
+    
+  .footer a:hover {
+      color: #D4AF37;
+    }
+    </style>
+  </head>
+  <body>
+      
+    
+     <nav
+
+        class="navbar navbar-expand navbar-dark bg-dark"
+        aria-label="Second navbar example"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" > Elegant Jewels</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarsExample02"
+            aria-controls="navbarsExample02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarsExample02">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item"><a href="#categories" class="nav-link" >Categories</a></li>
+
+              <li class="nav-item"><a class="nav-link" href="#aboutus">About Us</a></li>
+            </ul>
+            <form role="search">
+              <input
+                class="form-control"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+            </form>
+          </div>
+        </div>
+      </nav> 
+
+      <div class="section" id="home">
+     <div class="container">
+      
+      <h1>Welcome to Elegant Jewels</h1>
+      <h4>Find Elegant Jewellery For Your elegance</h4>
+      <form action="#categories">
+      <button type="submit" class="btn btn-outline-secondary" >Explore</button>
+      </form>
+     </div></div>
+    <br><br>
+     <section id="categories">
+      <div class="container"><center>
+        <h2 style="color: #333;
+">Featured Jewellery</h2></center><br>
+        
+        <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card product-card">
+            <img src="ring.jpg" class="card-img-top" alt="Diamond Ring" height="220">
+            <div class="card-body ">
+              <h5 class="card-title ">Diamond Engagement Ring</h5>
+              <p class="card-text text-center">A stunning diamond ring perfect for proposals.</p>
+              <p class="text-muted"> ₹ 5,500</p>
+              <a href="pendent.jpg" target="_blank"class="btn btn-outline-primary">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card product-card">
+            <img src="pendent.jpg" class="card-img-top" alt="Silver Necklace" height="220">
+            <div class="card-body">
+              <h5 class="card-title">Silver Pendant Necklace</h5>
+              <p class="card-text">Elegant silver necklace with a delicate pendant.</p>
+              <p class="text-muted"> ₹ 50,000</p>
+              <a href="pendent.jpg"  target="_blank"class="btn btn-outline-primary">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card product-card">
+            <img src="earringds.jpg" class="card-img-top" alt="Gold Earrings" height="220">
+            <div class="card-body">
+              <h5 class="card-title"> Earrings</h5>
+              <p class="card-text">Classic silver  earrings for everyday wear.</p>
+              <p class="text-muted">₹ 12,000</p>
+              <a href="earringds.jpg" target="_blank" class="btn btn-outline-primary">View Details</a>
+            </div>
+          </div>
+        </div>
+      </div> 
+       <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card product-card">
+            <img src="silver-charm-bracelet.jpg" class="card-img-top" alt="Diamond Ring" height="220">
+            <div class="card-body">
+              <h5 class="card-title">Silver Charm Bracelet</h5>
+              <p class="card-text">A stunning Silver Charm Bracelet for charm.</p>
+              <p class="text-muted">₹10,500</p>
+              <a href="silver-charm-bracelet.jpg" target="_blank" class="btn btn-outline-primary">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card product-card">
+            <img src="goldbraclate.jpg" class="card-img-top" alt="Silver Necklace" height="220">
+            <div class="card-body">
+              <h5 class="card-title">Gold Bracelate</h5>
+              <p class="card-text">Elegant gold bracelate for daily wear.</p>
+              <p class="text-muted">₹15,000</p>
+              <a href="goldbraclate.jpg" target="_blank" class="btn btn-outline-primary">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card product-card">
+            <img src="goldearring.jpg" class="card-img-top" alt="Gold Earrings"height="220">
+            <div class="card-body">
+              <h5 class="card-title">Gold Hoop Earrings</h5>
+              <p class="card-text">Classic gold hoop earrings for everyday wear.</p>
+              <p class="text-muted">₹ 11,000</p>
+              <a href="goldearring.jpg" target="_blank" class="btn btn-outline-primary">View Details</a>
+            </div>
+          </div>
+        </div>
+      </div> 
+     </section>
+     <br>
+
+<section class="section-about" id="aboutus">
+<div class="container">
+<h2>About Us</h2>
+<pre> 
+- 🌟 Our Promise
+We believe jewellery should be as unique as the person wearing it. 
+That’s why we use ethically sourced materials, certified gemstones, and expert craftsmanship to create treasures that last a lifetime.
+- ❤️ Our Vision
+To make luxury accessible, meaningful, and personal. 
+Whether you’re celebrating love, success, or simply yourself, we’re here to help you shine.
+- 🌍 Our Community
+Trusted by thousands of customers worldwide, we’re more than a brand—we’re a family of jewellery lovers who value authenticity, beauty, and connection.
+
+👉 You can adapt this by adding your brand name, founding year, or unique selling point .
+
+</pre>
+
+</div>
+
+</section>
+
+<div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center"> <a href="/"
+          class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1" aria-label="Bootstrap"> <svg
+            class="bi" width="30" height="24" aria-hidden="true">
+            
+          </svg> </a> <span class="mb-3 mb-md-0 text-body-secondary">© 2025 Company. Developed by Vaidika Ghoghari.</span>
+         </div>
+      
+    </footer>
+      
+  </body>
+</html>
